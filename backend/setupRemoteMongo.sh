@@ -1,0 +1,2 @@
+# Setup file template to upload data to MongoDB Atlas
+mongoimport --uri "mongodb+srv://yash:yash@qkart-node.ntfsgf0.mongodb.net/xflix?retryWrites=true&w=majority" --drop --collection videos --file data/export_videos.json
